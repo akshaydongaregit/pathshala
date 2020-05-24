@@ -1,0 +1,33 @@
+#login-banner{
+    border:none;
+    position:static;
+}
+#login-banner img{
+    height:100vh;
+}
+.form .textbox{
+    width:90%;
+}
+.form .button{
+    width:90% !important;
+    font:bold 100% 'Ubuntu' !important;
+    margin-top:5% !important;
+}
+#banner{
+    position:absolute;
+    top:0px;
+    right:0px;
+    width:50%;
+    z-index: -1;
+}
+#forgot-pswd-link{
+    font:normal 90% 'Ubuntu';
+}
+#forgot-pswd-link > .link{
+    float:right;
+    margin-bottom:5%;
+}
+
+#signup-link{
+    margin-top:10%;
+}
