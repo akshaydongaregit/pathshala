@@ -2,6 +2,15 @@
     border:none;
     position:static;
 }
+
+#banner{
+    position:absolute;
+    top:0px;
+    right:0px;
+    width:50%;
+    z-index: -1;
+}
+
 #login-banner img{
     height:100vh;
 }
@@ -12,13 +21,6 @@
     width:90% !important;
     font:bold 100% 'Ubuntu' !important;
     margin-top:5% !important;
-}
-#banner{
-    position:absolute;
-    top:0px;
-    right:0px;
-    width:50%;
-    z-index: -1;
 }
 #forgot-pswd-link{
     font:normal 90% 'Ubuntu';
@@ -35,8 +37,8 @@
 /*
  css for mobile
 */
-@media only screen and (max-device-width:768px)  { 
- 
+@media only screen and (min-device-width:320px)  { 
+
     #banner{
         position:relative;
         margin-top:2% !important;
@@ -48,4 +50,20 @@
    .form{
        margin-top:5px;
    }
+}
+
+/*for desktop*/
+@media (min-device-width:961px){
+ 
+#banner{
+    position:absolute;
+    top:0px;
+    right:0px;
+    width:50%;
+    z-index: -1;
+}
+  .form{
+       margin-top:10px;
+   }
+
 }
