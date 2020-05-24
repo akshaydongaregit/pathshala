@@ -31,3 +31,21 @@
 #signup-link{
     margin-top:10%;
 }
+
+/*
+ css for mobile
+*/
+@media only screen and (max-device-width:768px)  { 
+ 
+    #banner{
+        position:relative;
+        margin-top:2% !important;
+        margin-bottom:0px;
+        display:block;
+        width:50%;
+        margin:auto;
+    }
+   .form{
+       margin-top:5px;
+   }
+}

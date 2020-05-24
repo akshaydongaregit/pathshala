@@ -996,9 +996,9 @@ custom scrollbar
 
  .header #title label{
    position:initial;
-   text-align:left ;
+   text-align:left;
    font-family: 'Niconne';
-   color:#ffffff;
+   color: #03A9F4;
    /*color:#ffbd64;*/
    letter-spacing:1px;
  }
