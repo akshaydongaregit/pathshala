@@ -1,0 +1,56 @@
+<html><head>
+    <title>PathShala | Login</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" charset="ISO-8859-1">
+    <link rel="stylesheet" href="../../resources/css/autumn.css">
+    <link rel="stylesheet" href="../../resources/css/login.css">
+</head>
+<body>
+    <div class="header" >
+        <div id="title" nav="/">
+            <label class="title"> <span>P</span>athshala </label>
+            <label class="desc"> | Let's learn digitally </label>
+        </div>
+    </div>
+
+    <img id="banner" src="../../resources/images/banner1.jpg">
+    <div class="body">
+            <div class="form water">
+                <div class="form-header">
+                    <div class="title"> Login  </div>
+                    <div class="desc">Login with your username and password to start learning </div>
+                </div>
+                <div class="form-body center">
+                        <div class="element">
+                            <div class="label"> Username </div>
+                            <div class="control">
+                                <input type="text" id="username" class="textbox">
+                            </div>
+                        </div>
+                        <div class="element">
+                            <div class="label"> Password </div>
+                            <div class="control">
+                                <input type="password" id="pswd" class="textbox">
+                            </div>
+                        </div>
+                        <div class="element">
+                            <div class="control" id="forgot-pswd-link">
+                                <input type="submit" value="Forgot password?" class="link" onclick="document.location='/public/signup'">
+                            </div>    
+                        </div>
+                        
+                            <div class="control">
+                                <input type="submit" value="Login" class="button blue" onclick="login()">
+                            </div>
+                            <div class="control" id="signup-link">
+                                <input type="submit" value="Don't have account? Create one now." class="link" onclick="document.location='/public/signup'">
+                            </div>
+                       
+                    </div>
+                    
+                
+                <div class="form-footer"></div>
+            </div>     
+    </div>
+
+</body></html>
