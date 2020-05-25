@@ -164,7 +164,7 @@ body{
 /* css for form */
 .form {
   width:80%;
-  margin:auto;
+  margin-left:50%;
   margin-top: 10px;
   margin-bottom:10px;
   background-color:#ffffff;
@@ -190,16 +190,17 @@ body{
   font: bold 150% 'Ubuntu' , sans-serif;
 }
 .form .form-header .desc{
-  font: normal 95% 'Ubuntu';
+  font: normal 110% 'Ubuntu';
   text-align:center;
-  color:#949da9;
+  padding: 10px;
+  color:gray;
   margin:15px 10px 15px 10px;
-  color: #929dab;
+  color: gray;
   margin: 10px 15px 10px 15px;
 }
 
-.form-body{
-  margin-top:5px;
+.form-body {
+  margin-top: 2px;
   width: max-content;
   padding: 5px 5px 5px 5px;
 }
@@ -241,7 +242,7 @@ body{
 }
 .form .element .textbox{
   border: 2px solid #bfceda;
-  border-radius:5px;
+  border-radius:50px;
   color:#8f99a5;
   padding:0%;
   padding-left:2%;
@@ -318,9 +319,9 @@ body{
 }
 
 .form .button.green{
-  background-color:#8cffa6;
-  border:1px solid #30c721;
-  color:green;
+  background-color: lightgreen;
+  border: 1px solid green;
+  color: green;
 }
 
 [type="radio"]:checked,
@@ -413,6 +414,7 @@ body{
 }
 .form-body.box .element .control{
   display:table-cell;
+  padding-right: 10px;
   
 }
 .form-body.box .element.inline .control div{
@@ -998,16 +1000,24 @@ custom scrollbar
    position:initial;
    text-align:left;
    font-family: 'Niconne';
-   color: #03A9F4;
+   color: lightgreen;
    /*color:#ffbd64;*/
    letter-spacing:1px;
  }
+ .header #title .desc{
+  position:initial;
+  text-align:left;
+  font-family: 'Niconne';
+  color: deepskyblue;
+  /*color:#ffbd64;*/
+  letter-spacing:1px;
+}
 
  .header #title{
      text-align:left !important;
      margin: 1% 0% 0% 2%;
  }
-body{
+.body{
   padding:0px !important;
   margin:0px !important;
   width:100%;
@@ -1031,12 +1041,12 @@ body{
  }
 }
 
-.water{
+.water {
   background:none;
-  border:none;
-  box-shadow:none;
+  border: none;
+  box-shadow: none;
+  width: auto;
 }
-
 @media (min-device-width:961px){
   .header #title label{
      /* position:absolute; */
@@ -1046,6 +1056,11 @@ body{
      letter-spacing:1px;
      font-size:xx-large;
  }
+ .header #title .desc {
+  font: normal 100% 'Ubuntu';
+  letter-spacing: 0px;
+  color: lightgreen;
+}
    
    body > .footer{
      display:grid;

@@ -17,10 +17,12 @@
 .form .textbox{
     width:90%;
 }
-.form .button{
-    width:90% !important;
-    font:bold 100% 'Ubuntu' !important;
-    margin-top:5% !important;
+.form .button {
+    width: 90% !important;
+    height: 34px;
+    border-radius: 50px;
+    font: bold 100% 'Ubuntu' !important;
+    margin-top: 5% !important;
 }
 #forgot-pswd-link{
     font:normal 90% 'Ubuntu';
@@ -28,6 +30,7 @@
 #forgot-pswd-link > .link{
     float:right;
     margin-bottom:5%;
+    margin-right: 28px;
 }
 
 #signup-link{
@@ -39,17 +42,37 @@
 */
 @media only screen and (min-device-width:320px)  { 
 
-    #banner{
-        position:relative;
-        margin-top:2% !important;
-        margin-bottom:0px;
-        display:block;
-        width:50%;
-        margin:auto;
+    #banner {
+        position: relative;
+        margin-top: 3% !important;
+        margin-bottom: 0px;
+        margin-left: 24%;
+        display: block;
+        width: 50%;
+        margin-right: 45%;
     }
-   .form{
-       margin-top:5px;
-   }
+    .form {
+        width: 80%;
+        margin: auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        background-color: #ffffff;
+        font: normal 100% 'Ubuntu' , sans-serif;
+        /* border-radius: 10px;
+        /* padding: 2% !important; */
+        /* box-sizing: border-box;
+        box-shadow: 0px 0px 2px 2px #f7f3f3; */ 
+    }
+    .form .element .textbox {
+        border: 2px solid #bfceda;
+        border-radius: 50px;
+        color: #8f99a5;
+        padding: 0%;
+        padding-left: 2%;
+        height: 35px;
+        font: normal 100% "Ubuntu" , sans-serif;
+        margin: auto;
+    }
 }
 
 /*for desktop*/
@@ -62,8 +85,17 @@
     width:50%;
     z-index: -1;
 }
-  .form{
-       margin-top:10px;
-   }
+.form {
+    width: min-content;
+    margin-left: 70%;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    background-color: #ffffff;
+    font: normal 100% 'Ubuntu' , sans-serif;
+    /* border-radius: 10px; */
+    /* padding: 2% !important; */
+    /* box-sizing: border-box; */
+    /* box-shadow: 0px 0px 2px 2px #f7f3f3; */
+}
 
 }
