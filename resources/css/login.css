@@ -43,12 +43,14 @@
 @media only screen and (min-device-width:320px)  { 
 
     #banner{
-        position:relative;
+        /* position:relative; */
         margin-top:3% !important;
         margin-bottom:0px;
+        margin-left:24%;
         display:block;
         width:50%;
         margin-right:45%;
+        
        
     }
     .form {
