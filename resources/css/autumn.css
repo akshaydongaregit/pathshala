@@ -284,6 +284,23 @@ body{
   border:1px solid #ff8982;
 }
 
+.form .holder {
+    position:absolute;
+    top:2px;
+    left:2px;
+    display:inline-block;
+    width:21px;
+    height:21px;
+    background-color:#ffffff00;
+    padding:5px;
+    border-top-left-radius:3px;
+    border-bottom-left-radius:3px;
+    border-right:2px solid #bfceda;
+}
+.form .holder + input{
+    padding-left:35px !important;
+}
+
 .form .element.footer{
   display:block;
   width:max-content;
