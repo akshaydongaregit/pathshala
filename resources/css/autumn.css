@@ -292,14 +292,15 @@ body{
     display:inline-block;
     width:21px;
     height:21px;
-    background-color:#ffffff00;
+    background-color:#03a9f400;
     padding:5px;
-    border-top-left-radius:3px;
-    border-bottom-left-radius:3px;
-    border-right:2px solid #bfceda;
+    padding-left:15px;
+    border-top-left-radius:50px;
+    border-bottom-left-radius:50px;
+    border-right:2px solid #aebbc1;
 }
 .form .holder + input{
-    padding-left:35px !important;
+    padding-left:45px !important;
 }
 
 .form .element.footer{
