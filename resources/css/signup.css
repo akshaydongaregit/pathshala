@@ -1,0 +1,93 @@
+
+#banner{
+    position:absolute;
+    top:0px;
+    right:0px;
+    width:50%;
+    z-index: -1;
+}
+
+.form .textbox{
+    width:90%;
+}
+.form .button {
+    width: 90% !important;
+    height: 34px;
+    border-radius: 50px;
+    font: bold 100% 'Ubuntu' !important;
+    margin-top: 5% !important;
+}
+
+#login-link{
+    margin-top:10%;
+}
+
+.form .form-footer{
+    width:fit-content;
+}
+
+/*
+ css for mobile
+*/
+@media only screen and (min-device-width:320px)  { 
+
+    #banner {
+        position: relative;
+        margin-top: 3%;
+        margin-bottom: 0px;
+        margin-left: 24%;
+        display: block;
+        width: 48%;
+    }
+    .form {
+        width: 100%;
+        margin: auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        background-color: #ffffff;
+        font: normal 100% 'Ubuntu' , sans-serif;
+        /* border-radius: 10px;
+        /* padding: 2% !important; */
+        /* box-sizing: border-box;
+        box-shadow: 0px 0px 2px 2px #f7f3f3; */ 
+    }
+    .form .element .textbox {
+        border: 2px solid #bfceda;
+        border-radius: 50px;
+        color: #8f99a5;
+        padding: 0%;
+        padding-left: 2%;
+        height: 35px;
+        font: normal 100% "Ubuntu" , sans-serif;
+        margin: auto;
+    }
+    #login-link{
+        margin-top:0% !important;
+    }
+}
+
+/*for desktop*/
+@media (min-device-width:961px){
+ 
+#banner{
+    position:absolute;
+    top: 10%;
+    right:0px;
+    width:60%;
+    z-index: -1;
+}
+.form {
+    width: min-content;
+    width:50%;
+    margin-left: 0%;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    background-color: #ffffff00;
+    font: normal 100% 'Ubuntu' , sans-serif;
+    /* border-radius: 10px; */
+    /* padding: 2% !important; */
+    /* box-sizing: border-box; */
+    /* box-shadow: 0px 0px 2px 2px #f7f3f3; */
+}
+
+}

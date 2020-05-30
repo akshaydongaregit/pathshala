@@ -236,7 +236,7 @@ body{
 }*/
 
 .form .element{
-  margin-top:15px;
+  margin-top: 10px;
   color: #7e98a0;
   /* margin-left:15px; */
 }
@@ -299,8 +299,12 @@ body{
     border-bottom-left-radius:50px;
     border-right:2px solid #aebbc1;
 }
+.form-body.box .holder{
+  position:absolute;
+  top:9px;
+}
 .form .holder + input{
-    padding-left:45px !important;
+    padding-left:48px !important;
 }
 
 .form .element.footer{
@@ -410,8 +414,8 @@ body{
 }
 
 .form .element:nth-last-child(1){
-  margin-bottom:15px;
-  margin-top:30px;
+  /* margin-bottom:15px; */
+  /* margin-top:30px; */
 }
 
 .form{
@@ -442,6 +446,7 @@ body{
 
 .form-footer.center{
   margin:auto;
+  text-align:center;
 }
 .form-footer.box{
   display:table;
