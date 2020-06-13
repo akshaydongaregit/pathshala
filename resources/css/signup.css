@@ -13,7 +13,7 @@
 .form .button {
     width: 90% !important;
     height: 34px;
-    border-radius: 50px;
+    border-radius: 50px !important;
     font: bold 100% 'Ubuntu' !important;
     margin-top: 5% !important;
 }
@@ -40,7 +40,7 @@
         width: 48%;
     }
     .form {
-        width: 100%;
+        width: 96%;
         margin: auto;
         margin-top: 10px;
         margin-bottom: 10px;
@@ -49,7 +49,7 @@
         /* border-radius: 10px;
         /* padding: 2% !important; */
         /* box-sizing: border-box;
-        box-shadow: 0px 0px 2px 2px #f7f3f3; */ 
+        box-shadow: 0px 0px 2px 2px #f7f3f3; */
     }
     .form .element .textbox {
         border: 2px solid #bfceda;

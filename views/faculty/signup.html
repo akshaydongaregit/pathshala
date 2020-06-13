@@ -1,0 +1,101 @@
+<html><head>
+    <title>Pathshala | Student Signup</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" charset="ISO-8859-1">
+    <link rel="stylesheet" href="../../resources/css/autumn.css">
+    <link rel="stylesheet" href="../../resources/css/icons.css">
+    <link rel="stylesheet" href="../../resources/css/signup.css">
+</head>
+<body>
+    <div class="header" >
+        <div id="title" nav="/">
+            <label class="title"> <span>P</span>athshala </label>
+            <label class="desc"> | Let's learn digitally </label>
+        </div>
+    </div>
+
+    <img id="banner" src="../../resources/images/banner5.jpg">
+    <div class="body">
+            <div class="form water">
+                <div class="form-header">
+                    <div class="title"> Faculty Signup </div>
+                </div>
+                <div class="form-body box center">
+                            <div class="element">
+                                <div class="label"> First Name </div>
+                                <div class="control">
+                                    <span class="holder h-name"></span>
+                                    <input type="text" class="textbox" id="first-name">
+                                </div>
+                            </div>
+                            <div class="element">
+                                <div class="label"> Last Name </div>
+                                <div class="control">
+                                    <input type="text" class="textbox" id="last-name">
+                                </div>
+                            </div>
+                        <div class="element">
+                            <div class="label"> Email Id </div>
+                            <div class="control">
+                                <span class="holder h-email"></span>
+                                <input type="text" class="textbox" id="email">
+                            </div>
+                        </div>
+                        <div class="element">
+                            <div class="label"> Phone Number</div>
+                            <div class="control">
+                                <span class="holder h-phone"></span>
+                                <input type="text" class="textbox" id="phone">
+                            </div>
+                        </div>
+                        <div class="element">
+                            <div class="label"> Organization </div>
+                            <div class="control">
+                                <input type="text" id="org" class="textbox" placeholder="Organization Name">
+                            </div>
+                        </div>
+                        <div class="element">
+                            <div class="label"> Location </div>
+                            <div class="control">
+                                <span class="holder h-location"></span>
+                                <input type="text" id="location" class="textbox" placeholder="City Name">
+                            </div>
+                        </div>
+                        <div class="element">
+                            <div class="label"> Subject </div>
+                            <div class="control">
+                                <input type="text" id="subject" class="textbox" placeholder="E.g. Python">
+                            </div>
+                        </div>
+                        <div class="element">
+                            <div class="label"> Password </div>
+                            <div class="control">
+                                <span class="holder h-pswd"></span>
+                                <input type="password" id="pswd" class="textbox">
+                            </div>
+                        </div>
+                        <div class="element">
+                            <div class="label"> Confirm Password </div>
+                            <div class="control">
+                                <input type="password" id="conf-pswd" class="textbox">
+                            </div>
+                        </div>
+                    </div>
+                    
+                
+                <div class="form-footer center">
+                    <div class="element">
+                        <div class="control">
+                            <input type="submit" value="Signup" class="button green" onclick="signup()">
+                        </div>
+                    </div>
+                    <div class="element">
+                        <div class="control" id="login-link">
+                            <input type="submit" value="Already have account? Login now." class="link" onclick="document.location='/public/login'">
+                        </div>
+                    </div>
+                </div>
+            </div>     
+    </div>
+
+</body></html>
